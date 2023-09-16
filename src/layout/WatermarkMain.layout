@@ -53,7 +53,7 @@ FrameWidgetClass rootFrame {
        vexactpos 1
        hexactsize 1
        vexactsize 1
-       image0 "SyberiaScripts\data\gui\Watermark\logo.paa"
+       image0 "BreakPoint\BPSyberiaScripts\data\gui\Watermark\logo.paa"
        mode blend
        "src alpha" 1
        "no wrap" 0

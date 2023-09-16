@@ -1,30 +1,30 @@
 class CfgPatches {
-	class SyberiaScripts {
+	class BPSyberiaScripts {
         units[] = {};
 		requiredAddons[] = {"DZ_Data", "DZ_Scripts", "DZ_Gear_Medical", "DZ_Gear_Consumables"};
 	};
 };
 
 class CfgMods {
-	class SyberiaScripts {
+	class BPSyberiaScripts {
 		type = "mod";
         author = "Terje Broygard";
-        inputs = "SyberiaScripts/inputs/inputs.xml";
+        inputs = "BreakPoint/BPSyberiaScripts/inputs/inputs.xml";
 
 		class defs {
 			class gameScriptModule {
 				value = "";
-				files[] = {"SyberiaScripts/scripts/3_Game"};
+				files[] = {"BreakPoint/BPSyberiaScripts/scripts/3_Game"};
 			};
 
 			class worldScriptModule {
 				value = "";
-				files[] = {"SyberiaScripts/scripts/4_World"};
+				files[] = {"BreakPoint/BPSyberiaScripts/scripts/4_World"};
 			};
 
 			class missionScriptModule {
 				value = "";
-				files[] = {"SyberiaScripts/scripts/5_Mission"};
+				files[] = {"BreakPoint/BPSyberiaScripts/scripts/5_Mission"};
 			};
 
 			class imageSets {

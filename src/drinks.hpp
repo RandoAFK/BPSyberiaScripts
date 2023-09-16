@@ -6,7 +6,7 @@ class SodaCan_MadBull: SodaCan_EnergyDrink
     descriptionShort="#syb_mad_bull_desc";
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\drinks\sodacan_madbull_co.paa"
+        "BreakPoint\BPSyberiaScripts\data\drinks\sodacan_madbull_co.paa"
     };
     class AnimEvents
     {

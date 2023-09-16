@@ -60,7 +60,7 @@ modded class MissionGameplay
 		
 		if (!m_AdditionHudRootWidget)
 		{
-			m_AdditionHudRootWidget = GetGame().GetWorkspace().CreateWidgets("SyberiaScripts/layout/AdditionalHud.layout");
+			m_AdditionHudRootWidget = GetGame().GetWorkspace().CreateWidgets("BreakPoint/BPSyberiaScripts/layout/AdditionalHud.layout");
 			m_AdditionHudRootWidget.Show(false);
 			
 			if ( !m_SyberiaAdditionalHud )
@@ -427,7 +427,7 @@ modded class MissionGameplay
 		UIScriptedMenu ingameMenu = GetGame().GetUIManager().GetMenu();
 		if (ingameMenu && ingameMenu.GetID() == MENU_INGAME)
 		{
-			ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/WatermarkInGame.layout" );		
+			ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "BreakPoint/BPSyberiaScripts/layout/WatermarkInGame.layout" );		
 			ref Widget watermarkBase = watermarkWidget.FindAnyWidget( "WatermarkBase" );
 			ref Widget watermarkBtn = watermarkBase.FindAnyWidget( "WatermarkActionBtn" );
 			TextWidget.Cast( watermarkBase.FindAnyWidget( "WatermarkTextWidget5" ) ).SetText(Syberia_Version);

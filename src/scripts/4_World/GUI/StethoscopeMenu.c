@@ -22,7 +22,7 @@ class StethoscopeMenu extends UIScriptedMenu
 
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/StethoscopeMenu.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "BreakPoint/BPSyberiaScripts/layout/StethoscopeMenu.layout" );
 		m_states = TextListboxWidget.Cast(layoutRoot.FindAnyWidget("StatesWidget"));
 		
 		if (m_data.m_health < 0)

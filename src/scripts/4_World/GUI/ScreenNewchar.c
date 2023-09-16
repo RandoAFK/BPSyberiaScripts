@@ -38,7 +38,7 @@ class ScreenNewchar extends ScreenBase
 	
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/ScreenNewchar.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "BreakPoint/BPSyberiaScripts/layout/ScreenNewchar.layout" );
 		
 		m_genderSelector = XComboBoxWidget.Cast( layoutRoot.FindAnyWidget( "GenderSelector" ) );
 		m_faceSelector = XComboBoxWidget.Cast( layoutRoot.FindAnyWidget( "FaceSelector" ) );	

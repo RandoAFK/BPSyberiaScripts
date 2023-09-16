@@ -4,7 +4,7 @@ class ItemPDA: Clothing
     title = "#pda_item_name";
     displayName = "#pda_item_name";
     descriptionShort = "#pda_item_desc";
-    model="SyberiaScripts\data\pda\gear_pda_g.p3d";
+    model="BreakPoint\BPSyberiaScripts\data\pda\gear_pda_g.p3d";
     inventorySlot = "Armband";
     itemInfo[] = {"Clothing","Armband"};
     rotationFlags = 34;
@@ -18,8 +18,8 @@ class ItemPDA: Clothing
     oldpower=0;
     class ClothingTypes
     {
-        male = "SyberiaScripts\data\pda\gear_pda_m.p3d";
-        female = "SyberiaScripts\data\pda\gear_pda_m.p3d";
+        male = "BreakPoint\BPSyberiaScripts\data\pda\gear_pda_m.p3d";
+        female = "BreakPoint\BPSyberiaScripts\data\pda\gear_pda_m.p3d";
     };
     hiddenSelections[]=
     {
@@ -27,8 +27,8 @@ class ItemPDA: Clothing
     };
     hiddenSelectionsTextures[]=
     {
-        "SyberiaScripts\data\pda\ekraan_bc.paa",
-        "SyberiaScripts\data\pda\ekraan_ok_co.paa"
+        "BreakPoint\BPSyberiaScripts\data\pda\ekraan_bc.paa",
+        "BreakPoint\BPSyberiaScripts\data\pda\ekraan_ok_co.paa"
     };
     attachments[]=
     {
@@ -43,7 +43,7 @@ class ItemPDA: Clothing
         attachmentAction=1;
         wetnessExposure=0.1;
     };
-    ITEM_DAMAGE_SYSTEM(100, "SyberiaScripts\data\pda\pda.rvmat", "SyberiaScripts\data\pda\pda.rvmat", "SyberiaScripts\data\pda\pda.rvmat");
+    ITEM_DAMAGE_SYSTEM(100, "BreakPoint\BPSyberiaScripts\data\pda\pda.rvmat", "BreakPoint\BPSyberiaScripts\data\pda\pda.rvmat", "BreakPoint\BPSyberiaScripts\data\pda\pda.rvmat");
     class AnimEvents
     {
         class SoundWeapon

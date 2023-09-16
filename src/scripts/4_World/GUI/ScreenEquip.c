@@ -68,7 +68,7 @@ class ScreenEquip extends ScreenBase
 	
     override Widget Init()
     {
-		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/ScreenEquip.layout" );
+		layoutRoot = GetGame().GetWorkspace().CreateWidgets( "BreakPoint/BPSyberiaScripts/layout/ScreenEquip.layout" );
 
 		m_playerPreview = PlayerPreviewWidget.Cast( layoutRoot.FindAnyWidget( "PlayerPreview" ) );
 		m_StartBtn = ButtonWidget.Cast( layoutRoot.FindAnyWidget( "StartBtn" ) );

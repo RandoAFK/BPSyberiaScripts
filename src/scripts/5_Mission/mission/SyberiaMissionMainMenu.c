@@ -13,7 +13,7 @@ modded class MissionMainMenu
 			rootWidget = m_mainmenu.GetLayoutRoot();
 		}
 		
-		ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "SyberiaScripts/layout/WatermarkMain.layout" );		
+		ref Widget watermarkWidget = GetGame().GetWorkspace().CreateWidgets( "BreakPoint/BPSyberiaScripts/layout/WatermarkMain.layout" );		
 		ref Widget watermarkBase = watermarkWidget.FindAnyWidget( "WatermarkBase" );
 		ref Widget watermarkBtn = watermarkBase.FindAnyWidget( "WatermarkActionBtn" );
 		TextWidget.Cast( watermarkBase.FindAnyWidget( "WatermarkTextWidget5" ) ).SetText(Syberia_Version);

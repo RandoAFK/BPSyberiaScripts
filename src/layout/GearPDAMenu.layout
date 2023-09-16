@@ -20,7 +20,7 @@ FrameWidgetClass GearPDAMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 0
-   image0 "SyberiaScripts\data\pda\gui_messages.paa"
+   image0 "BreakPoint\BPSyberiaScripts\data\pda\gui_messages.paa"
    mode blend
    "src alpha" 1
    "no wrap" 1
@@ -416,7 +416,7 @@ FrameWidgetClass GearPDAMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 0
-   image0 "SyberiaScripts\data\pda\gui.paa"
+   image0 "BreakPoint\BPSyberiaScripts\data\pda\gui.paa"
    mode blend
    "src alpha" 1
    "no wrap" 1
@@ -457,7 +457,7 @@ FrameWidgetClass GearPDAMenu {
    vexactpos 1
    hexactsize 0
    vexactsize 0
-   image0 "SyberiaScripts\data\pda\gui_messages.paa"
+   image0 "BreakPoint\BPSyberiaScripts\data\pda\gui_messages.paa"
    mode blend
    "src alpha" 1
    "no wrap" 1
