@@ -3,7 +3,7 @@ class Stethoscope: Clothing
     scope=2;
     displayName="#syb_stethoscope_name";
     descriptionShort="#syb_stethoscope_desc";
-    model="BreakPoint\SyberiaScripts\data\medical\Stethoscope_g.p3d";
+    model="BreakPoint\BPSyberiaScripts\data\medical\Stethoscope_g.p3d";
     vehicleClass="Clothing";
     simulation="clothing";
     medicalItem=1;
@@ -46,8 +46,8 @@ class Stethoscope: Clothing
     };
     class ClothingTypes
     {
-        male="BreakPoint\SyberiaScripts\data\medical\Stethoscope_m.p3d";
-        female="BreakPoint\SyberiaScripts\data\medical\Stethoscope_m.p3d";
+        male="BreakPoint\BPSyberiaScripts\data\medical\Stethoscope_m.p3d";
+        female="BreakPoint\BPSyberiaScripts\data\medical\Stethoscope_m.p3d";
     };
     class AnimEvents
     {
