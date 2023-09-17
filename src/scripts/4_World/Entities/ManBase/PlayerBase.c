@@ -194,6 +194,18 @@ modded class PlayerBase
 	{
 		return m_sybstats.m_sepsis > 1;
 	}
+		bool HasCriticalSepsis()
+	{
+		return m_sybstats.m_sepsis > 2;
+	}
+	bool HasVisibleContamination()
+	{
+		return ( GetSingleAgentCount(eAgents.CHEMICAL_POISON) >= 100 && GetSingleAgentCount(eAgents.CHEMICAL_POISON) < 400 );
+	}
+	bool HasCriticalContamination()
+	{
+		return ( GetSingleAgentCount(eAgents.CHEMICAL_POISON) >= 400);
+	}
 	
 	bool HasVisibleZVirus()
 	{
@@ -243,7 +255,7 @@ modded class PlayerBase
 			{
 				bool skipMaskCondition = false;
 				string itemMaskType = itemCheck.GetType();
-				if (itemMaskType.IndexOf("Balaclava3Holes_") == 0)
+				if (itemMaskType.IndexOf("Balaclava3Holes_") == 0 || itemMaskType.IndexOf("Chainmail_Coif") == 0 || itemMaskType.IndexOf("Shemagh_Scarf_") == 0)
 				{
 					skipMaskCondition = true;
 				}
